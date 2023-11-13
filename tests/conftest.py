@@ -1,7 +1,7 @@
 from selenium import webdriver
 import pytest
 
-driver: webdriver.Chrome
+driver: webdriver.Remote
 
 @pytest.fixture()
 def driver():
